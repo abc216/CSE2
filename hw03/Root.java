@@ -3,6 +3,10 @@
 // Root
 // 9/13/14
 
+// The program takes a number from the user, divides it by three, and then continuously
+// multiples it by itself to make it more accurate as to what the cubed root of a number
+// is. 
+
   import java.util.Scanner;
   // tells Java we are going to have the user import information
 

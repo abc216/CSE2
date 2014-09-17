@@ -3,7 +3,10 @@
 // 9/13/14
 // Bicycle
 
-
+// The program prompts the user to enter and number of seconds and counts. The program
+// then uses casting intergers to doubles to stop the decimal places from continuing onward.
+// In specific, by using information from the cyclometer lab, we can figure out distance and seconds,
+// and then by casting doubles to intergers, finding the average mile per hour. 
 
   import java.util.Scanner;
   // tells Java we are going to have the user import information
