@@ -1,6 +1,7 @@
 //hw 03 PART 3
 // Alana Corey
 // FourDigits
+// 9/13/14
 
 
 // this program is going to give you the last four decimal points of an entered number.

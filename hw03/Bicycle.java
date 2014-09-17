@@ -1,6 +1,8 @@
 //hw 03 PART 1
 // Alana Corey
+// 9/13/14
 // Bicycle
+
 
 
   import java.util.Scanner;

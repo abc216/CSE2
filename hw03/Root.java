@@ -1,6 +1,7 @@
 //hw 03 PART 2
 // Alana Corey
 // Root
+// 9/13/14
 
   import java.util.Scanner;
   // tells Java we are going to have the user import information
