@@ -113,8 +113,8 @@ public class NumberStack{
             }
             
              System.out.println(""); // prints each lines above the dashes 
-            rows--;
-                
+            rows--; // decreases rows
+                 
             }
         } while(cNum <= nInput); // when the counter is less than or equal to the input
         
