@@ -33,15 +33,15 @@ public class NumberStack{
         
         for (int i = 1; i <= nInput; i++) { // whatever i is becomes the number printed out
            
-           for (int k = 0; k < i; k++){ // separates groups for the cubes of the numbers, and distinguises rows
+          for (int k = 0; k < i; k++){ // separates groups for the cubes of the numbers, and distinguises rows
             for (int m = 0; m < (nInput - i); m++) System.out.print(" "); // creates spacing by pushing the numbers forward
             
-        for (j = 0; j < ((2*i)-1); j++) System.out.print(i); // prints the physical number out
+       for (j = 0; j < ((2*i)-1); j++) System.out.print(i); // prints the physical number out
          System.out.println(""); // enters to the next line of code
-        if(k==(i-1)){ // test to see if it is the last row needed
+    if(k==(i-1)){ // test to see if it is the last row needed
             for (int q = 0; q < (nInput - i); q++) System.out.print(" "); // prints spacing
         for (int n = 0; n < ((2*i)-1); n++) System.out.print("-"); // if last row not needed, print dash
-        }
+       }
          } System.out.println();// puts everything onto a new line
         }
         
@@ -55,14 +55,14 @@ public class NumberStack{
         
 
         while(cNum <= nInput){ // while the current number printed is less than the number inputed
-            rows = cNum; // setting rows to cNum
-            while(rows > 0){ // while the rows are greater than 0,
+          rows = cNum; // setting rows to cNum
+           while(rows > 0){ // while the rows are greater than 0,
                 int x = 0; // counter variable for while loop
                 while(x< nInput - cNum){System.out.print(" "); x++;} // prints spaces
                 int y = 0; // counter varible for while loop
-                while(y< ((2*cNum) -1) ){System.out.print("" + cNum); y++;} // prints numbers
+               while(y< ((2*cNum) -1) ){System.out.print("" + cNum); y++;} // prints numbers
             if(rows == 1){ // if you're on the last row of the specific number
-                System.out.println(""); // prints new line
+           System.out.println(""); // prints new line
                 int z= 0; // variable for spaces
                 int a = 0; // variable for spaces
                 while(a< nInput - cNum){System.out.print(" "); a++;} // print spaces

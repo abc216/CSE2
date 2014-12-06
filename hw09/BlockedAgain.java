@@ -133,7 +133,7 @@ public static int lines(int z){// opens methods lines
  for (int n = 0; n < i; n++){  //separates groups for the cubes of the numbers
    if(n==(i-1)){ // test to see if it is the last row needed
    
-       for (int q = 0; q < (m - i); q++) System.out.print(" "); // appropriate spacing for each dash 
+   for (int q = 0; q < (m - i); q++) System.out.print(" "); // appropriate spacing for each dash 
             for (int s = 0; s < ((2*i)-1); s++) System.out.print("-"); // if last row not needed, print dash
   
        }
